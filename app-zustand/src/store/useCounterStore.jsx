@@ -14,8 +14,6 @@ const useCounterStore = create(persist( immer((set)=>({
     // immer 는 불변값인 state 객체를 받아서 그 안의 상태를 변경한다. 
     addNumber : ()=>set((state)=> { state.count += 1 }),
     minusNumber : ()=>set((state)=>{ state.count -= 1 }),
-}))), {
-    name: 'count-storage'
-});
+})), {name: 'count-storage'} ));
 
 export default useCounterStore;
