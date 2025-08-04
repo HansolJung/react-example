@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+        구조분해 할당은 객체 또는 배열의 일부 요소를 편리하게 얻기 위한 방법
+    */
+
+    const person = {
+        name : '홍길동',
+        age : 400
+    }
+
+    function printInfo({name, age}) {  // 넘어온 객체를 name과 age 로 구조분해 하기
+        console.log(`안녕하세요 저는 ${name} 이고, 나이는 ${age} 살 입니다.`);   // '안녕하세요 저는 홍길동 이고, 나이는 400 입니다.' 출력
+    }
+
+    printInfo(person);  // 객체만 넘겨줘도 함수에서 알아서 구조분해 할당됨.
+</script>
+</html>

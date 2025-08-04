@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination li{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background-color: white;
+    border-radius: 20%;
+    border: 1px solid #9c9c9c;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.pagination a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.pagination li.active{
+    background-color: #514ef3;
+}
+
+.pagination li.active a{ 
+    color: white;
+    background-color: #514ef3;
+    font-weight: bold;
+    text-decoration: none;
+}

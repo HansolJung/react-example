@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pop-container{
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1.2rem 1rem;
+}
+
+.search-area{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.search-area input{
+    flex: 10;
+}
+
+.search-area button{
+    flex: 1;
+}

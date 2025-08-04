@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+.detail{
+    display: flex;
+    justify-content: center;    
+}
+
+.detail-form{
+    width: 600px;
+    height: 500px;
+    padding: 1rem 1rem;
+}
+
+.detail-contents textarea{
+    resize: none;
+    height: 250px;
+}

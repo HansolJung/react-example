@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    margin: 200px auto;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1.2rem 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.search-area{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.search-area input{
+    flex: 10;
+}
+
+.search-area button{
+    flex: 1;
+}
+
+.btn-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.totalBalance{
+    width: 100%;
+    text-align: right;
+}
+
+.card input{
+    margin: 10px;
+    border-bottom: 1px solid black;
+}

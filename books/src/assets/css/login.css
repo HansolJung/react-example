@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+.login-form{
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #f9f9f9;
+    column-gap: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.select{
+    width: 200px;
+    height: 36px;
+}

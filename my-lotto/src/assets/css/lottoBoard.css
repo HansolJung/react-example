@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+.header{
+    margin-top: 5vh;
+}
+
+.contents{
+    width: 800px;
+    height: 600px;
+}
+
+.evt-button{
+    text-align: right;
+    
+}
